@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(245, 226, 188);
+}
+#container{
+    width: 90%;
+    margin : 10px;
+    margin-top: 20px;
+   
+}
+#container .container__myinfor{
+    float: left; 
+    max-width: 35%;
+    background-color: rgb(197, 241, 129);
+}
+.container__myinfor .container__myinfor__image{
+    float: left;
+    width:90%;
+    margin-left: 30px;
+}
+.container__myinfor__image img{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+
+}
+.container__myinfor .container__myinfor__icons{
+    float: left;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+.container__myinfor__icons ul{
+
+}
+.container__myinfor__icons ul a {
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.container__myinfor__icons ul a li {
+    display: inline-block;
+    padding-left: 20px;
+}
+.container__myinfor .container__myinfor__name{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 90%;
+    
+}
+.container__myinfor__name h1{
+    color: rgb(36, 130, 99);
+
+}
+.container__myinfor__name p{
+    padding-left: 15px;
+    padding-top: 9px;
+    font-size: 15px;
+}
+.container__myinfor .container__contact{
+    float: left;
+    padding: 10px;
+    
+    width: 90%;
+}
+.container__contact h1{
+    margin-left: 20px;
+    color: rgb(36, 130, 99);
+}
+.container__contact table{
+    margin-top: 10px;
+    font-size: 15px;
+    width:300px;
+    overflow:auto;
+    border-collapse:collapse;
+
+}
+.container__contact th{
+    text-align:left;
+    padding:10px;
+    width: 200px
+}
+
+#container .container__maininfor{
+    float: right;
+    max-width: 50%;
+
+}
+.container__maininfor .container__maininfor__levelOfEducation{
+    margin-bottom: 30px;
+}
+.container__maininfor__levelOfEducation h1{
+    color: rgb(36, 130, 99);
+    margin-bottom: 15px;
+    
+}
+.container__maininfor__levelOfEducation h3{
+    margin-bottom: 10px ;
+}
+.container__maininfor__levelOfEducation ul{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.container__maininfor__levelOfEducation ul li{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.container__maininfor .container__maininfor__TargetOfGoal{
+
+}
+.container__maininfor__TargetOfGoal h1{
+    color: rgb(36, 130, 99);
+    margin-bottom: 15px;
+}
+.container__maininfor__TargetOfGoal .container__maininfor__TargetOfGoal__time{
+    margin-bottom: 20px;
+}
+.container__maininfor__TargetOfGoal__time h3{
+    margin-bottom: 10px;
+}
+.container__maininfor__TargetOfGoal__time ul {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.container__maininfor__TargetOfGoal__time ul li {
+    padding-top: 10px;
+    font-size: 20px;
+}
+

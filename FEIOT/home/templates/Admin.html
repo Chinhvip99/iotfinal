@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="ICON" href="images/g7_minilogo.png" type="x-icon" />
+    <title>IOT Dashboard</title>
+    <link rel="stylesheet" href="/static/css/admin.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+
+        <div id="1">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <span class="icon">
+                                <!-- <img
+                                src="images/g7_minilogo.png" width="25px" height="25px"/> -->
+                                <i class="bi bi-cloud-sun-fill"></i>
+                            </span>
+                            <span class="titleA" style="color: rgb(231, 234, 42); padding: 25px; font-size: 25px;">Group C</span>
+                        </a>
+                    </li>
+    
+                    <li class="hovered">
+                        <a href="/DashBoard" >
+                            <span class="icon">
+                                <!-- <ion-icon name="home-outline"></ion-icon> -->
+                                <i class="bi bi-houses"></i>
+                            </span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="/DataSensor">
+                            <span class="icon">
+                                <!-- <ion-icon name="people-outline"></ion-icon> -->
+                                <i class="bi bi-bar-chart-line-fill"></i>
+                            </span>
+                            <span class="title">Data Sensor</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="/History">
+                            <span class="icon">
+                                <!-- <ion-icon name="shirt-outline"></ion-icon> -->
+                                <i class="bi bi-hourglass-split"></i>
+                            </span>
+                            <span class="title">History</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="/Admin">
+                            <span class="icon">
+                                <!-- <ion-icon name="people-outline"></ion-icon> -->
+                                <i class="bi bi-person-bounding-box"></i>
+                            </span>
+                            <span class="title">Admin</span>
+                        </a>
+                    </li>
+    
+    
+    
+                </ul>
+            </div>
+        </div>
+       
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <!-- <ion-icon name="menu-outline"></ion-icon> -->
+                    <i class="bi bi-menu-button-wide"></i>
+                </div>
+
+                <div class="top-name">
+                    <h1>ADMIN</h1>
+                </div>
+
+                <div class="user">
+                    
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+           
+
+            <!--heelo --> 
+            <div id= "container">
+                <div class="container__myinfor"> 
+                    <div class= "container__myinfor__image"> 
+                        <img src="/static/img/concho3.jpg" alt="clH">
+                    </div>
+                    <div class = "container__myinfor__icons">
+                        <ul>
+                            <a href="">
+                                <li><i class="fab fa-facebook-messenger"></i> </li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-instagram-square"></i> </li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-twitter"></i></li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-tiktok"></i> </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class= "container__myinfor__name">
+                        <h1> VŨ ĐỨC CHÍNH </h1>
+                        <p> Học ra học, chơi ra chơi </p>
+                    </div>
+                    <div class= "container__myinfor__name">
+                        <h1> GIỚI THIỆU </h1>
+                        <p> Là người vui vẻ, hoà đồng, chăm chỉ. Có tinh thần trách nhiệm với công việc, luôn tìm tòi học hỏi những điều mới </p>
+                    </div>
+                    <div class="container__contact"> 
+                        <h1> LIÊN HỆ </h1>
+                        <table>
+                            <tr>
+                                <th> Ngày Sinh: </th> 
+                                <td> 09/09/2002 </td>
+                            </tr>
+                            <tr>
+                                <th> Gmail: </th> 
+                                <td> vuducchinh992002@gmail.com </td>
+                            </tr>
+                            <tr>
+                                <th> Địa Chỉ: </th> 
+                                <td> 13/141 Quan Nhân, Nhân Chính, Thanh Xuân, Hà Nội </td>
+                            </tr>
+                            <tr>
+                                <th> Số Điện Thoại: </th> 
+                                <td> 0328430183 </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class= "container__maininfor">
+                    
+                    <div class= "container__maininfor__levelOfEducation">
+                        <h1> HỌC VẤN </h1>
+                        <h3> Học Viện Công Nghệ Bưu Chính Viễn Thông - Chuyên Ngành Phát Triển Ứng Dụng </h3>
+                        <ul> 
+                            <li> Sinh viên năm 4 </li>
+                            <li> Có kiến thức về lập trình web, app về front end, backend </li>
+                            <li> Tích cực tham gia hoạt động khi làm việc nhóm và thường làm leader </li>
+                        </ul>
+                    </div>
+                    <div class= "container__maininfor__levelOfEducation">
+                        <h1> KINH NGHIỆM LÀM VIỆC  </h1>
+                        <h3> Nhân viên lập trình - Devoloper </h3>
+                        <ul> 
+                            <li> Đã từng làm việc parttime tại công ty Tigo về lập trình Odoo </li>
+                            <li> Phụ trách việc kết nối cơ sở dữ liệu, tạo model và tìm kiểu nghiệp vụ chương trình </li>
+                            <li> Thiết kế cơ dở dữ liệu </li>
+                        </ul>
+                    </div>
+                    <!-- <div class= "container__maininfor__TargetOfGoal">
+                        <h1> MỤC TIÊU LÀM VIỆC </h1>
+                        <div class="container__maininfor__TargetOfGoal__time">
+                            <h3> Mục Tiêu Ngắn Hạn </h3>
+                            <ul> 
+                                <li> Tập trung học và làm việc tại lớp để đạt kết quả cao nhất </li>
+                                <li> Tinh thần trách nhiệm trong hoạt động nhóm </li>
+                                <li> Tiếp tục tham gia vào các công việc parttime trên công ty </li>
+                                <li> Làm hoà với Hương  </li>
+                            </ul>
+                        </div>
+                        <div class="container__maininfor__TargetOfGoal__time">
+                            <h3> Mục Tiêu Dài Hạn </h3>
+                            <ul> 
+                                <li> Hoàn Thành Tốt Nghiệp tại Trường </li>
+                                <li> Được nhận công việc chính thức tại công ty </li>
+                                <li> Có nhiều tiền để có nhiều người yêu  </li>
+                                <li> Lấy Hương làm vợ đẻ thật nhiều con  </li>
+                                      
+        
+                            </ul>
+                        </div>
+                    </div> -->
+                    
+                </div>
+            </div> 
+
+
+
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="/static/js/admin.js"></script>
+    <script src="/static/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
